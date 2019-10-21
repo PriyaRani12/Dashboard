@@ -1,0 +1,307 @@
+
+/*@media(min-width:768px){
+.mob-view-logo{display:none;}
+}*/
+
+
+@media(max-width:1366px) {
+.container1440{max-width:1140px;}
+.menu ul li a{font-size:13px;}
+
+.addressBox label.font28 {font-size: 25px!important;}
+}
+@media(max-width:1366px) {
+    .flex-block.align_center {
+    flex-wrap: wrap!important;
+}
+    }
+
+@media (max-width: 1279px) and (min-width: 1024px){
+.right_content_box {
+    padding: 15px;
+}
+}
+@media (max-width: 1023px){
+
+.top_user_info {
+    width: 61px;
+}
+
+}
+@media(max-width:1199px) {
+.container1440{max-width:991px;}
+
+
+.menu ul li {padding: 15px 5px;}
+/* .logo {max-width:120px;} */
+.btn.btnHeader{padding:5px 10px;}
+}
+
+@media (max-width: 1023px) and (min-width: 768px){
+.right_content_box {
+    padding: 15px;
+}
+}
+/* =============767px 991px Start========== */
+@media(max-width:991px) {
+
+header  nav {padding-right:46px;position:relative;}
+
+.mob-menu{display:block;}
+.close-menu{display:block;}
+.menu{opacity:0; visibility:hidden; backface-visibility:hidden; position:fixed; top:0px; right:0px; margin-right:-100%; background:#ffc600; padding-top:50px; width:300px; height:100vh; overflow:hidden; overflow-y:auto; z-index:1; transition:400ms;}
+.menu ul li {display:block; padding:15px 20px; border-bottom:1px solid #000; }
+.menu ul li a{color:#000;font-weight:600;}
+.menu-slide{margin-right:0; opacity:1; visibility:visible; backface-visibility:visible; transition:400ms;}
+
+.rectangleBoxImg{margin-top:30px;}
+
+
+}
+/* =============991px End========== */
+
+/* =============767px Start========== */
+@media (max-width:767px) {
+    .notify_icon {
+    width: 40px;
+    margin-right: 0;
+}
+.steps > li {
+    font-size: 14px;
+}
+.notify_icon a {
+    display: inline-block;
+}
+.notify_icon a i {
+    font-size: 14px;
+}
+.top_user_info {
+    width: 50px;
+}
+.header_search_box.show {
+    display: block;
+}
+body.logged main {
+    padding: 50px 0 0px;
+}
+.commonSectionStyle {
+    padding: 1em 0!important;
+}
+
+.header_menu a {
+    font-size: 12px;
+}
+.header_search_box {
+    max-width: 100%;
+    padding-right: 0;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    padding: 10px 15px;
+    display: none;
+    background: rgba(0,0,0,0.5);
+}
+.notify_icon a + a {
+    margin-left: 5px;
+}
+.notify_icon a .badge {
+    font-size: 9px;
+    width: 20px;
+    height: 20px;
+}
+.head-user-img {
+    width: 40px;
+    height: 40px;
+}
+.header_search_box {
+    max-width: 100%;
+    padding-right: 0;
+    position: fixed;
+    left: 0;
+    top: 48px;
+    padding: 10px 15px;
+    display: none;
+    background: #000000;
+}
+.modal-dialog{margin:.5rem 0;}	
+header nav {min-height:45px;}
+.logo{max-width:75px;padding-top:0;}
+.loginBox{max-width:168px;}
+.btn.btnHeader{    padding: .375rem .75rem;;font-size:12px;min-width:60px;}
+.bannerSection{padding-top:80px;}
+.bannerContent h1{font-size:20px;line-height:1.5;margin-bottom:15px;}
+.bannerContent p{font-size:13px;}
+.bannerActionBtn {margin-left:auto;margin-right:auto;display:block;max-width:220px;}
+.bannerActionBtn .btn + .btn {margin-left:0;margin-top:10px;}
+.userbanName{font-size:50px;}
+.flex-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex1 {
+    flex: auto;
+}
+.looking-hdng-block {
+    position: relative;
+    padding-top: 18px;
+}
+.post_time {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mainContent {margin-top:57px;}
+.right_content_box {
+    width: 100%;
+    padding: 15px;
+}
+.sidebar {
+    width: 100%;
+    float: none;
+}
+.global_tabs .nav-tabs.tabs3col .nav-item, .global_tabs .nav-tabs.tabs4col .nav-item {
+    width: 100%;
+    margin: 0;
+}
+
+/* .commonSectionStyle{padding:2em 0;} */
+.logoMid{max-width:60px;top:-30px;}
+.sectionHead {margin-bottom:25px;}
+.sectionHead h2{font-size:24px;}
+.sectionHead p{font-size:14px;line-height:1.6;}
+body{font-size:14px;}
+.rectangleBoxImg{padding-top:20px;padding-left:20px;}
+.processCol{margin:7px 0;}
+.processCol:before{display:none!important;}
+.projectCol h3{font-size:18px;}
+.featureBtns .btn{font-size:13px;}
+.logoBanner{max-width:39px;}
+.footMenu,.socialLinks{justify-content:center;}
+.copyRight{margin:10px auto;font-size:11px;}
+.skillsLink{margin:10px 0;}
+.footMenu li a{font-size:12px;}
+}
+/* =============767px End========== */
+
+@media(min-width:768px){
+.chat_open_btn, .hide_from_tab {
+    display: none!important;
+}
+    
+	
+}
+
+@media(min-width:768px) and (max-width:991px){
+.processCol{margin:35px 0;}
+.processCol1:before, .processCol2:before, .processCol3:before{background-size: 100% 30px;}
+.processCol1:before, .processCol3:before{bottom:-30px;}
+.processCol2:before{top:-30px;}
+.workProcess figcaption{font-size:14px;}
+.workProcess p{font-size:13px;}
+.copyRight, .footMenu li a{font-size:11px;}
+.footMenu li + li{margin-left:5px;padding-left:5px;}
+.socialLinks{justify-content: center;margin-top:15px;}	
+}
+@media (min-width: 767px){
+.flex-block {
+    display: flex;
+        flex-wrap: wrap;
+}
+.flex2 {
+    flex: 2;
+}
+.flex1 {
+    flex: auto;
+}
+.modal-dialog.max-WT-600 {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+}
+@media(min-width:1024px) and (max-width:1199px){
+.copyRight, .footMenu li a{font-size:13px;}
+}
+
+@media(min-width:768px) and (max-width:1199px){
+
+}
+
+@media(min-width:1200px) and (max-width:1439px){
+
+}
+@media(max-width:640px){
+	.list-job-section {
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+    flex-wrap: wrap;
+}
+.list_upper .company-logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+}
+.job_list_block{
+    padding-left: 48px;
+}
+}
+@media(max-width:480px){
+.list-job {
+    min-width: 140px;
+    margin: 0 auto;
+}
+span.grey-color.ml10 {
+    margin-left: 0px!important;
+}
+.flex1.text-center {
+    text-align: left!important;
+}
+.job_list > li{
+    padding:20px 0px;
+}
+select#sel1 {
+    max-width: 150px!important;
+}
+.d-flex.align-items-center.justify-content-between.mt15 {
+    flex-wrap: wrap;
+}
+a.skills_tag.green-bg {
+    margin-top: 4px;
+}
+}
+
+@media (max-width: 1024px){
+
+.header_menu a {
+    font-size: 12px;
+        margin-right: 5px!important
+}
+
+.header_menu {
+    max-width: 124px;
+    width: 100%;
+    float: left;
+    margin: 4px 0 0 10px!important;
+}
+
+
+
+}
+
+@media (max-width: 1023px) and (min-width: 768px){
+.header_right_box {
+    max-width: 106px;
+}
+.header_search_box {
+    max-width: 300px;
+}
+
+
+}
+
+
+
+
+
